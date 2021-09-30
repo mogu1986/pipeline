@@ -20,6 +20,9 @@ def call(String app="${JOB_NAME}", String lang = "${JOB_NAME}") {
         case "java":
             pipeline_java(params)
             break
+        case "boot":
+            pipeline_boot(params)
+            break
         case "nodejs":
             pipeline_nodejs(params)
             break
