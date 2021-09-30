@@ -225,7 +225,6 @@ class AppMeta {
                     artifact: 'user-account-service/target/user-account-service.jar',
                     git: 'http://gitlab.top.mw/user-account/user-account.git'
             ],
-			
             //  admincenter
             [
                     app: "admincenter-approval",
